@@ -34,7 +34,7 @@ namespace WindowsFormsApp1
 
         private void TsbtnColor_Click(object sender, EventArgs e)
         {
-            DialogResult result = this.colorDlg.ShowDialog();  // 사용자입력 대기, 코드 멈춤
+            DialogResult result=this.colorDlg.ShowDialog();  // 사용자입력 대기, 코드 멈춤
             switch (result)
             {
                 case DialogResult.OK:
